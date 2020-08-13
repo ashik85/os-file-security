@@ -152,7 +152,7 @@ int main()
 						printf("\nThe file is not decrypted");
 					}
 					exit(1);
-                case 3: exit(0);
+                               case 3: exit(0);
 			}
 		}
 	}
