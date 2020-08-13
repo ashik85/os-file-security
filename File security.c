@@ -96,7 +96,7 @@ int main()
 	{
 		while(1)
 		{
-			printf("\n1.ENCRYPT\n2.DECRYPT");
+			printf("\n1.ENCRYPT\n2.DECRYPT\n3.EXIT");
 			printf("\nEnter choice..");
 			scanf("%d",&choice);
 			switch(choice)
@@ -152,6 +152,7 @@ int main()
 						printf("\nThe file is not decrypted");
 					}
 					exit(1);
+                case 3: exit(0);
 			}
 		}
 	}
